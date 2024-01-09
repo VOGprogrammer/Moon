@@ -1,0 +1,28 @@
+namespace caulenhdieukien
+{
+    /*
+     câu lệnh điều kiện là những cú pháp, câu lệnh, cấu trúc mà
+    kết quả thực thi dựa theo 1 điều kiện nào đó mang giá trị
+    boolean (true/false)
+     */
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 10, y = 20;
+            bool a = x == y;
+            Console.WriteLine(a);
+            if (a == true)
+            {
+                Console.WriteLine("x bằng y");
+
+            }
+            else
+            {
+                Console.WriteLine("x khác y");
+            }
+            //khi ta sd 1 biến bool trong đk thì ko cần so sánh thêm với true/false 
+        }
+    }
+}
